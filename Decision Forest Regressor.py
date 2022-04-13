@@ -7,7 +7,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split
 
-hou_dat_file_path = 'C:/Users/pc/Desktop/AI and ML/ML/Datasets/Mobile Classification/train.csv'
+hou_dat_file_path = 'C:/Users/pc/Desktop/AI and ML/ML/Datasets/Iowa Houses/train.csv'
 hou_dat = pd.read_csv(hou_dat_file_path)
 
 a = hou_dat.columns
